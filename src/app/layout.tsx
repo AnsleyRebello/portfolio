@@ -4,8 +4,8 @@ import "./globals.css";
 // Correct metadata object for Next.js
 export const metadata: Metadata = {
   title: "Ansley Rebello - Portfolio Website",
-  description: "A professional portfolio website by Rahul Vishwakarma showcasing projects and skills.",
-  keywords: ["Rahul Vishwakarma", "portfolio", "resume", "developer portfolio", "full-stack developer", "Rahulresume"],
+  description: "A professional portfolio website by Ansley Rebello showcasing projects and skills.",
+  keywords: ["Ansley Rebello", "portfolio", "resume", "developer portfolio", "full-stack developer", "Rahulresume"],
   authors: [{ name: "Ansley Rebello" }],
   robots: {
     index: true,
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Rahul Resume - Professional Portfolio",
     description: "Explore Rahul Vishwakarma's professional projects and experience.",
-    url: "https://rahulresume.com", // Replace with your actual URL
-    siteName: "Rahul Resume",
+    url: "https://ansleyrebellome.vercel.aoo", // Replace with your actual URL
+    siteName: "Ansley Resume",
     type: "website",
   },
 };
