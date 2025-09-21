@@ -1,0 +1,28 @@
+[
+    {
+      "title": "Pulp",
+      "href": "https://pulp.yadav.id/",
+      "des": "Pulp is a Simple Code,Text,Image Sharing platform",
+      "imageLink": "/pulp.png"
+    },
+    {
+      "title": "ISTE SFIT 2025",
+      "href": "https://iste-2025.vercel.app/",
+      "des": "Indian Institute Of Technology",
+      "imageLink": "/iste.png"
+
+    },
+    {
+      "title": "Prominent Ai",
+      "href": "https://github.com/CodeFromRahul/Prominent.ai",
+      "des": "Real time collaborative Ai.",
+      "imageLink": "/Ai.png"
+    },
+    {
+      "title": "Resturant Seat Reservation ",
+      "href": "https://github.com/CodeFromRahul/Resturant-Seat-reservation",
+      "des": "Use for crowd handling in hotel",
+      "imageLink": "/hm.png"
+    }
+  ]
+  
