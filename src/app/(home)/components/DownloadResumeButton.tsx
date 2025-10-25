@@ -3,13 +3,13 @@ import React from "react";
 const DownloadResumeButton: React.FC = () => {
   const handleDownload = () => {
     // The URL of the resume hosted in the public folder
-    const resumeUrl = "/Ansley Rebello.pdf";
+    const resumeUrl = "/A_R.pdf";
 
     // Create a temporary link to trigger the download
     const link = document.createElement("a");
     link.href = resumeUrl;
     
-    link.download = "Ansley's_Resume.pdf"; // Name for the downloaded file
+    link.download = "Ansley_Rebello_Resume.pdf"; // Name for the downloaded file
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link); // Clean up the link

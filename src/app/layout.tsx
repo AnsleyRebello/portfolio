@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: "Rahul Resume - Professional Portfolio",
+    title: "Ansley Resume - Professional Portfolio",
     description: "Explore Ansley Rebello's professional projects and experience.",
     url: "https://ansleyrebellome.vercel.aoo", // Replace with your actual URL
     siteName: "Ansley Resume",

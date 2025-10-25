@@ -1,4 +1,3 @@
-import BorderIncard from "@/app/(home)/components/BorderIncard";
 import { cn } from "@/lib/utils";
 
 export const BentoGrid = ({
@@ -22,7 +21,10 @@ export const BentoGrid = ({
 
 export const BentoGridItem = ({
   className,
-  
+  title,
+  description,
+  header,
+  icon,
 }: {
   className?: string;
   title?: string | React.ReactNode;
@@ -37,31 +39,16 @@ export const BentoGridItem = ({
         className
       )}
     >
-      <div>
-        <h1 className="text-base sm:text-xl md:text-2xl p-3">
-          Hey there! I’m Ansley, a 20-year-old full-stack developer from India with a passion for building end-to-end web applications. 🚀 I love working across the stack—crafting sleek, responsive frontends and powering them with robust, scalable backends.        </h1>
+      {header}
+      <div className="group-hover/bento:translate-x-2 transition duration-200">
+        {icon}
+        <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
+          {title}
+        </div>
+        <div className="font-sans font-normal text-neutral-600 text-xs dark:text-neutral-300">
+          {description}
+        </div>
       </div>
-
-      <div className="mt-8">
-        <BorderIncard />
-      </div>
-
-      <h1 className="text-2xl sm:text-3xl ml-4 mt-4">Experience</h1>
-      <ul className="list-disc ml-6">
-        <li className="mb-1">Served as a Tech Executive for the academic year 2023-2024 in SFIT Student Council</li>
-        <li className="mb-1">Served as a PR Head for academic year 2024-2025 in ISTE SFIT</li>
-      </ul>
-
-      <div className="mt-8">
-        <BorderIncard />
-      </div>
-
-      {/* <h1 className="text-2xl sm:text-3xl ml-4 mt-4">Achievement</h1>
-      <ul className="list-disc ml-6">
-        <li className="mb-1">Winner of Prakalp. <span className="text-gray-400">(An Institute Level Miniproject Competition)</span></li>
-        <li className="mb-1">Runner-up of Pragati. <span className="text-gray-400">(An Institute Level Innovative-based Competition)</span></li>
-        <li className="mb-1">Runner-up of prayas<span className="text-gray-400">(An Institute Level Business-based Competition)</span></li>
-      </ul> */}
     </div>
   );
 };
